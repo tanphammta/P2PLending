@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Implement\LoanApplicationService.cs~RF1101bf24.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\P2PLending.Web.Entities\P2PLending.Web.Entities.csproj" />
+    <ProjectReference Include="..\P2PLending.Web.Helper\P2PLending.Web.Helper.csproj" />
+    <ProjectReference Include="..\P2PLending.Web.Repositories\P2PLending.Web.Repositories.csproj" />
+  </ItemGroup>
+</Project>

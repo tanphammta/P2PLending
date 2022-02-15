@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/P2PLending.Web.API/bin/*
+/.vs/*
+/P2PLending.Web.API/obj/*
+/P2PLending.Web.Business/bin/*
+/P2PLending.Web.Business/obj/*
+/P2PLending.Web.DAL/bin/*
+/P2PLending.Web.DAL/obj/*
+/P2PLending.Web.Entities/bin/*
+/P2PLending.Web.Entities/obj/*
+/P2PLending.Web.Helper/bin/*
+/P2PLending.Web.Helper/obj/*
+/P2PLending.Web.Helper/obj/*
+/P2PLending.Web.Repositories/bin/*
+/P2PLending.Web.Repositories/obj/*
